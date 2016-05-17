@@ -5,7 +5,7 @@ palin_word = palin_word.replace(" ", "")
 
 for d in string.punctuation:
     palin_word = palin_word.replace(d, "")
-
+# i love my variable names. don't pick on 'em.
 countA = 0
 countB = -1
 letterA = palin_word[countA]
